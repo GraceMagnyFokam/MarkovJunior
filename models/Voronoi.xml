@@ -1,8 +1,16 @@
-<sequence values="BYE">
-  <one in="B" out="E" steps="10"/>
-  <one in="B" out="Y" steps="10"/>
+<sequence values="BRGNAPY" >
+  <one in="B" out="R" steps="1"/>
+  <one in="B" out="G" steps="1"/>
+  <one in="B" out="N" steps="1"/>
+  <one in="B" out="A" steps="1"/>
+  <one in="B" out="P" steps="1"/>
+  <one in="B" out="Y" steps="1"/>
   <all>
-    <rule in="EB" out="*E"/>
+    <rule in="NB" out="*N"/>
     <rule in="YB" out="*Y"/>
+    <rule in="RB" out="*R"/>
+    <rule in="GB" out="*G"/>
+    <rule in="AB" out="*A"/>
+    <rule in="PB" out="*P"/>
   </all>
 </sequence>

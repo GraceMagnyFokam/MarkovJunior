@@ -276,7 +276,8 @@ class Rule
                 output[o] = value;
             }
         }
-
+        
+        
         double p = xelem.Get("p", 1.0);
         return new Rule(input, IMX, IMY, IMZ, output, OMX, OMY, OMZ, gin.C, p);
     }
