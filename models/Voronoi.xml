@@ -1,16 +1,12 @@
-<sequence values="BRGNAPY" >
+<sequence values="BRGNA" >
   <one in="B" out="R" steps="1"/>
   <one in="B" out="G" steps="1"/>
   <one in="B" out="N" steps="1"/>
-  <one in="B" out="A" steps="1"/>
-  <one in="B" out="P" steps="1"/>
-  <one in="B" out="Y" steps="1"/>
+  <one in="B" out="A" steps="1" p="0.5"/>
   <all>
     <rule in="NB" out="*N"/>
-    <rule in="YB" out="*Y"/>
     <rule in="RB" out="*R"/>
     <rule in="GB" out="*G"/>
     <rule in="AB" out="*A"/>
-    <rule in="PB" out="*P"/>
   </all>
 </sequence>
