@@ -1,4 +1,4 @@
-# MarkovJunior Implementation for the Procedural Generation of EBSDs
+# MarkovJunior
 MarkovJunior is a probabilistic programming language where programs are combinations of rewrite rules and inference is performed via constraint propagation. MarkovJunior is named after mathematician [Andrey Andreyevich Markov](https://en.wikipedia.org/wiki/Andrey_Markov,_Jr.), who defined and studied what is now called [Markov algorithms](https://en.wikipedia.org/wiki/Markov_algorithm).
 MarkovJunior is written in `C#` and `XML` and runs using the `.NET framework.`
 
