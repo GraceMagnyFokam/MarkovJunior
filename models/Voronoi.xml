@@ -1,6 +1,9 @@
+<!--Introduces the colors the program will use.-->
 <sequence values="BUIAREPYNO">
   <prl>
+  <!--I (Indigo) is a placeholder color-->
     <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBIBB/BBBBB" p="0.950006924248719"/>
+    <!--The following 8 represent all 8 of the different centroid colors. The p values represent the orientation fraction.-->
     <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBEBB/BBBBB" p="0.007221"/>
     <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBABB/BBBBB" p="0.00518329" />
     <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBUBB/BBBBB" p="0.00399628"/>
@@ -11,9 +14,11 @@
     <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBOBB/BBBBB" p="0.00728035"/>
   </prl>
   <prl>
+  <!--Removes placeholder-->
   <rule in="I" out="B"/>
 </prl>
     <all>
+    <!--The following shows the growth of each centroid. The p is the volume fraction and represents how large each color centroid should grow.-->
       <rule in="AB" out="*A" p="0.12125349"/>
       <rule in="UB" out="*U" p="0.13650662"/>
       <rule in="RB" out="*R" p="0.10538707"/>
