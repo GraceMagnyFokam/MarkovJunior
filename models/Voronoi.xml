@@ -1,12 +1,26 @@
-<sequence values="BRGNA" >
-  <one in="B" out="R" steps="1"/>
-  <one in="B" out="G" steps="1"/>
-  <one in="B" out="N" steps="1"/>
-  <one in="B" out="A" steps="1" p="0.5"/>
-  <all>
-    <rule in="NB" out="*N"/>
-    <rule in="RB" out="*R"/>
-    <rule in="GB" out="*G"/>
-    <rule in="AB" out="*A"/>
+<sequence values="BUIAREPYNO">
+  <prl>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBIBB/BBBBB" p="0.950006924248719"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBEBB/BBBBB" p="0.007221"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBABB/BBBBB" p="0.00518329" />
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBUBB/BBBBB" p="0.00399628"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBRBB/BBBBB" p="0.00809148"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBYBB/BBBBB" p="0.00658793"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBNBB/BBBBB" p="0.00676598"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBPBB/BBBBB" p="0.00593507"/>
+    <rule in="BBBBB/BBBBB/BBBBB" out="BBBBB/BBOBB/BBBBB" p="0.00728035"/>
+  </prl>
+  <prl>
+  <rule in="I" out="B"/>
+</prl>
+    <all>
+      <rule in="AB" out="*A" p="0.12125349"/>
+      <rule in="UB" out="*U" p="0.13650662"/>
+      <rule in="RB" out="*R" p="0.10538707"/>
+      <rule in="EB" out="*E" p="0.12734683"/>
+      <rule in="PB" out="*P" p="0.11907729"/>
+      <rule in="YB" out="*Y" p="0.1223218 "/>
+      <rule in="NB" out="*N" p="0.13666489"/>
+      <rule in="OB" out="*O" p="0.13144202"/>
   </all>
 </sequence>

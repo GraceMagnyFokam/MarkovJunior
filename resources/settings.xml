@@ -2,6 +2,6 @@
   squareSize="7" smallSquareSize="3" maxwidth="10" zshift="2"
   hindent="30" hgap="2" harrow="10" hline="14"
   vskip="2" smallvskip="2" fontshift="2" afterfont="4"
-  dense="True" d3="True"
+  dense="True" d3="True" colors="8"
   background="222222" inactive="666666" active="ffffff"
 />

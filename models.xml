@@ -1,6 +1,9 @@
 <models>
-  <model name="Voronoi" size="240"/>
+  <model name="Voronoi" width="203" length="249" pixelsize="1" amount="1" gif="False"/>
   <model name="Voronoi" size="60" d="3"/>
+
+  
+
 
   
   gifs
